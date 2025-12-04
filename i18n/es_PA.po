@@ -1,0 +1,599 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* loan_panama_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-03 19:20+0000\n"
+"PO-Revision-Date: 2025-12-03 19:20+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__account
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__status__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Amortization / Payments"
+msgstr "Amortización / Pagos"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__amount
+msgid "Amount"
+msgstr "Monto"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__amount_paid
+msgid "Amount Paid"
+msgstr "Monto pagado"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_other_charge.py:0
+msgid "Amount paid cannot be negative."
+msgstr "El importe pagado no puede ser negativo."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_other_charge.py:0
+msgid "Amount paid cannot exceed the total charge amount."
+msgstr "El monto pagado no puede exceder el monto total del cargo."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "An unexpected error occurred while registering the payment: %s"
+msgstr "Se produjo un error inesperado al registrar el pago."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__annual_feci_rate
+msgid "Annual FECI Rate (%)"
+msgstr "Tasa anual FECI (%)"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__annual_interest_rate
+msgid "Annual Interest Rate (%)"
+msgstr "Tasa de interés anual (%)"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Annual interest rate cannot be negative."
+msgstr "La tasa de interés anual no puede ser negativa."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Annual interest rate exceeds allowed limit (200%)."
+msgstr "La tasa de interés anual excede el límite permitido (200%)."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__other_charge_ids
+msgid "Applied Other Charges"
+msgstr "Otros cargos aplicados"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__loan_type__auto
+msgid "Auto"
+msgstr ""
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Balance cannot be negative."
+msgstr "El saldo no puede ser negativo."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__payment_frequency__biweekly
+msgid "Biweekly"
+msgstr "Quincenal"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_payment_wizard
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_line.py:0
+msgid "Cannot register a payment before the disbursement date."
+msgstr "No se puede registrar un pago antes de la fecha de desembolso."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__capital_payment
+msgid "Capital Payment"
+msgstr "Abono a Principal"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_other_charge.py:0
+msgid "Charge amount cannot be negative."
+msgstr "El monto del cargo no puede ser negativo."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__status__closed
+msgid "Closed"
+msgstr "Cerrado"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__collateral
+msgid "Collateral"
+msgstr "Colateral"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Collateral / Guarantee"
+msgstr "Colateral / Garantía"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__loan_type__corporate
+msgid "Corporate"
+msgstr "Corporativo"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__create_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__create_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__create_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__create_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__create_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__create_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__creation_date
+msgid "Creation Date"
+msgstr "Fecha de creación"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__credit_officer
+msgid "Credit Officer"
+msgstr "Oficial de crédito"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__current_balance
+msgid "Current Balance"
+msgstr "Saldo actual"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__partner_id
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Customer Information"
+msgstr "Información del cliente"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__payment_frequency__daily
+msgid "Daily"
+msgstr "Diario"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__dealer
+msgid "Dealer"
+msgstr "Distribuidor"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__status__defaulter
+msgid "Defaulter"
+msgstr "Moroso"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__description
+msgid "Description"
+msgstr "Descripción"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__disbursement_date
+msgid "Disbursement Date"
+msgstr "Fecha de Desembolso"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__display_name
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__display_name
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__display_name
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__status__draft
+msgid "Draft"
+msgstr "Borrador"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__due_date
+msgid "Due Date"
+msgstr "Fecha de vencimiento"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error applying other charges: %s"
+msgstr "Error al aplicar otros cargos: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating FECI: %s"
+msgstr "Error al calcular FECI: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating current balance: %s"
+msgstr "Error al calcular el saldo actual: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating days since last payment: %s"
+msgstr ""
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating interest: %s"
+msgstr "Error al calcular los días desde el último pago: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating loan status: %s"
+msgstr "Error al calcular el estado del préstamo: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_other_charge.py:0
+msgid ""
+"Error calculating pending balance: amount paid (%s) exceeds total amount "
+"(%s)."
+msgstr ""
+"Error al calcular el saldo pendiente: el monto pagado (%s) excede el monto "
+"total (%s)."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error calculating principal balance: %s"
+msgstr "Error al calcular el saldo de capital: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error creating payment line: %s"
+msgstr "Error al crear la línea de pago: %s"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Error updating next due date: %s"
+msgstr "Error al actualizar la próxima fecha de vencimiento: %s"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__feci
+msgid "FECI"
+msgstr ""
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__feci_exempt
+msgid "FECI Exempt"
+msgstr "FECI Exento"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__feci_threshold
+msgid "FECI Threshold"
+msgstr "Umbral FECI"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "FECI rate cannot be negative."
+msgstr "La tasa FECI no puede ser negativa."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "FECI threshold cannot be negative."
+msgstr "El umbral FECI no puede ser negativo."
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Financial Conditions"
+msgstr "Condiciones Financieras"
+
+#. module: loan_panama_custom
+#: model:ir.model,name:loan_panama_custom.model_loan_loan
+msgid "General Info and Balance"
+msgstr "Información general y saldo"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__id
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__id
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__id
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__income_source
+msgid "Income Source(s)"
+msgstr "Fuente(s) de ingresos"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,help:loan_panama_custom.field_loan_loan__feci_exempt
+msgid "Indicates if this loan is exempt from FECI calculation."
+msgstr "Indica si este préstamo está exento del cálculo del FECI."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__loan_type__individual
+msgid "Individual"
+msgstr ""
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__interest
+msgid "Interest"
+msgstr "Interés"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__write_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__write_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__write_uid
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Actualizado por última vez por"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__write_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__write_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__write_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__loan_id
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__loan_id
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__loan_id
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Loan"
+msgstr "Préstamo"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Loan Information"
+msgstr "Información del préstamo"
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Loan Lines"
+msgstr "Líneas de préstamo"
+
+#. module: loan_panama_custom
+#: model:ir.ui.menu,name:loan_panama_custom.menu_loan_management
+msgid "Loan Management"
+msgstr "Gestión de préstamos"
+
+#. module: loan_panama_custom
+#: model:ir.model,name:loan_panama_custom.model_loan_other_charge
+msgid "Loan Other Charges"
+msgstr "Préstamo Otros cargos"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__name
+msgid "Loan Reference"
+msgstr "Referencia de préstamo"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__loan_type
+msgid "Loan Type"
+msgstr "Tipo de préstamo"
+
+#. module: loan_panama_custom
+#: model:ir.actions.act_window,name:loan_panama_custom.action_loan
+#: model:ir.ui.menu,name:loan_panama_custom.menu_loan_root
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_list
+msgid "Loans"
+msgstr "Préstamos"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,help:loan_panama_custom.field_loan_loan__feci_threshold
+msgid "Minimum balance to apply FECI"
+msgstr "Saldo mínimo para aplicar FECI"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__payment_frequency__monthly
+msgid "Monthly"
+msgstr "Mensual"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__monthly_installment
+msgid "Monthly Installment"
+msgstr "Cuota Mensual"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__loan_type__mortgage
+msgid "Mortgage"
+msgstr "Hipoteca"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__movement_date
+msgid "Movement Date"
+msgstr "Fecha de movimiento"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__next_due_date
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__next_due_date
+msgid "Next Due Date"
+msgstr "Próxima fecha de vencimiento"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Next due date cannot be before the disbursement date."
+msgstr "La próxima fecha de vencimiento no puede ser anterior a la fecha de desembolso."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__notes
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__notes
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__notes
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Notes"
+msgstr "Notas"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__other_charge_ids
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+msgid "Other Charges"
+msgstr "Otros cargos"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__paid_amount
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__paid_amount
+msgid "Paid Amount"
+msgstr "Monto pagado"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_line.py:0
+msgid "Paid amount must be greater than zero."
+msgstr "El monto pagado debe ser mayor que cero."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_payment_wizard__payment_date
+msgid "Payment Date"
+msgstr "Fecha de pago"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__payment_frequency
+msgid "Payment Frequency"
+msgstr "Payment Frequency"
+
+#. module: loan_panama_custom
+#: model:ir.model,name:loan_panama_custom.model_loan_line
+msgid "Payment History / Amortization"
+msgstr "Historial de Pagos / Amortización"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__loan_line_ids
+msgid "Payment Lines"
+msgstr "Líneas de pago"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Payment amount must be greater than zero."
+msgstr "El monto del pago debe ser mayor que cero."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Payment date cannot be before the disbursement date."
+msgstr "La fecha de pago no puede ser anterior a la fecha de desembolso."
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_other_charge__pending_balance
+msgid "Pending Balance"
+msgstr "Saldo Pendiente"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__loan_type__personal
+msgid "Personal"
+msgstr ""
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__principal_amount
+msgid "Principal Amount"
+msgstr "Monto principal"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_line__principal_balance
+msgid "Principal Balance"
+msgstr "Saldo Principal"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "Principal amount must be greater than zero."
+msgstr "El monto principal debe ser mayor que cero."
+
+#. module: loan_panama_custom
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_payment_wizard
+msgid "Register"
+msgstr "Registro"
+
+#. module: loan_panama_custom
+#: model:ir.actions.act_window,name:loan_panama_custom.action_loan_payment_wizard
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_form
+#: model_terms:ir.ui.view,arch_db:loan_panama_custom.view_loan_payment_wizard
+msgid "Register Payment"
+msgstr "Registrarse Pago"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__status
+msgid "Status"
+msgstr "Estado"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields,field_description:loan_panama_custom.field_loan_loan__term_months
+msgid "Term (months)"
+msgstr "Plazo (meses)"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "The selected payment frequency is not valid."
+msgstr "La frecuencia de pago seleccionada no es válida."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_line.py:0
+msgid ""
+"This payment line cannot be deleted because it has associated charges. "
+"Please remove the charges first."
+msgstr ""
+"Esta línea de pago no se puede eliminar porque tiene cargos asociados. "
+"Por favor, elimine los cargos primero."
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan_other_charge.py:0
+msgid "Unexpected error calculating pending balance: %s"
+msgstr "Error inesperado al calcular el saldo pendiente: %s"
+
+#. module: loan_panama_custom
+#: model:ir.model.fields.selection,name:loan_panama_custom.selection__loan_loan__payment_frequency__weekly
+msgid "Weekly"
+msgstr "Semanalmente"
+
+#. module: loan_panama_custom
+#: model:ir.model,name:loan_panama_custom.model_loan_payment_wizard
+msgid "Wizard to register payments"
+msgstr "Asistente para registrar pagos"
+
+#. module: loan_panama_custom
+#. odoo-python
+#: code:addons/loan_panama_custom/models/loan.py:0
+msgid "You must specify a payment amount."
+msgstr "Debe especificar un monto de pago."
